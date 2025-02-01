@@ -23,7 +23,7 @@ with main_col:
 # Sidebar
 with sidebar_col:
     # Load and display local image
-    st.sidebar.image("everythingengineer.png", use_column_width=True)
+    st.sidebar.image("everythingengineer.png", use_container_width=True)
     
     # Corporate information
     st.sidebar.markdown("""
